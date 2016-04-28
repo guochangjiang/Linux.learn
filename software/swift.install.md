@@ -7,7 +7,9 @@
 ### 安装过程
 
 1. 下载对于平台的安装文件: 
+
 > https://swift.org/builds/swift-2.2.1-release/ubuntu1510/swift-2.2.1-RELEASE/swift-2.2.1-RELEASE-ubuntu15.10.tar.gz
+
 > https://swift.org/builds/swift-2.2.1-release/ubuntu1510/swift-2.2.1-RELEASE/swift-2.2.1-RELEASE-ubuntu15.10.tar.gz.sig
 
 2. 安装依赖包: sudo apt-get install clang libicu-dev
@@ -26,4 +28,5 @@ wget -q -O - https://swift.org/keys/all-keys.asc | gpg --import -
 7. 将解压缩得到的文件夹复制到安装位置，例如/home/xxx/programs/swift
 8. 编辑.bashrc将/home/xxx/programs/swift/usr/bin加入环境变量
 9. 运行swift，显示如下信息便成功了。
+
 > Welcome to Swift version 2.x.x (swift-2.x.x-RELEASE). Type :help for assistance.
