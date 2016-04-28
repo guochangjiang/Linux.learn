@@ -15,7 +15,7 @@
 9. 下载并安装inconsolata: sudo cp -r ./inconsolata /usr/share/texlive/texmf-dist/tex
 10. 刷新一下 sty: sudo mktexlsr
 11. 再次进行预编译，应该就成功了。
-12. 编译: sudo make
+12. 编译: make
 13. 出错: Cannot find any Java interpreter, 需要安装java
 14. 下载java包: http://javadl.oracle.com/webapps/download/AutoDL?BundleId=207765
 15. 解压缩并将文件夹移动到安装位置，然后添加到环境变量(.bashrc)
